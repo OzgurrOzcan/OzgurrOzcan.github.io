@@ -12,8 +12,8 @@ h1 {
   text-align: center;
   margin-top: 25px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700; /* Daha kalın yazı */
-  font-size: 2.5em; /* Başlık boyutunu artırdım */
+  font-weight: 700; 
+  font-size: 2.5em;
   text-transform: uppercase;
 }
 
@@ -21,9 +21,9 @@ p {
   color: #333;
   text-align: justify;
   margin: 20px;
-  font-size: 1.2em; /* Increase font size */
-  font-family: "Open Sans", sans-serif; /* Change to a more modern font */
-  line-height: 1.6; /* Improve readability */
+  font-size: 1.2em; 
+  font-family: "Open Sans", sans-serif; 
+  line-height: 1.6; 
 }
 
 nav {
@@ -67,7 +67,7 @@ nav ul li a:hover {
   padding: 20px;
   display: flex;
   gap: 30px;
-  margin-top: 45px; /* Adjust this value based on the height of your nav */
+  margin-top: 45px;
 }
 
 .left-half {
@@ -80,7 +80,7 @@ nav ul li a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -1; /* Navigasyon menüsünün altında kalmasını sağlar */
+  z-index: -1; 
   margin-top: 0;
 }
 
@@ -117,38 +117,38 @@ body.cros-page {
   padding: 0;
 }
 .title {
-  background-color: #333; /* Navigasyon menüsü ile aynı gri renk */
-  color: white; /* Yazı rengini beyaz yapıyoruz ki okunabilir olsun */
+  background-color: #333;
+  color: white; 
   text-align: center;
-  margin: 0; /* Kenar boşluklarını kaldırıyoruz */
-  padding: 20px 0; /* Üst ve alttan boşluk */
-  font-family: "Open Sans", "font-sans"; /* Başlık fontunu değiştirdik */
+  margin: 0; 
+  padding: 20px 0; 
+  font-family: "Open Sans", "font-sans";
   font-weight: 700;
   font-size: 2.5em;
   text-transform: uppercase;
   width: 100%;
 }
 img.top-left {
-  width: 200px; /* Adjust the width as needed */
+  width: 200px; 
   height: auto;
   float: left;
   margin: 10px 20px 10px 0;
 }
 
 .content img.top-left {
-  width: 500px; /* Fixed width */
-  height: 400px; /* Maintain aspect ratio */
-  object-fit: cover; /* Ensure image covers area without distortion */
-  border-radius: 8px; /* Optional: adds slight rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds subtle shadow */
-  margin: 20px 30px 20px 0; /* Sağ margin artırıldı, sol margin 0 yapıldı */
+  width: 500px; 
+  height: 400px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin: 20px 30px 20px 0; 
   float: left;
 }
 .content {
   display: flex;
-  padding: 0 20px; /* Yanlarda boşluk bırakalım */
-  align-items: flex-start; /* İçerikleri üstten hizalar */
-  gap: 20px; /* Resim ve yazı arasında boşluk */
+  padding: 0 20px; 
+  align-items: flex-start; 
+  gap: 20px; 
 }
 
 .content p {
@@ -192,14 +192,14 @@ img.top-left {
 }
 
 .power-foto {
-  width: 400px; /* Fixed width */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover; /* Ensure image covers area without distortion */
-  border-radius: 8px; /* Optional: adds slight rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds subtle shadow */
-  margin: 10px 30px 10px 0; /* Adjust margins as needed */
+  width: 400px; 
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin: 10px 30px 10px 0;
   float: left;
-  z-index: -1; /* Başlığın altında kalması için */
+  z-index: -1;
 }
 
 .power-content {
@@ -254,11 +254,11 @@ img.top-left {
 }
 
 .power-table th:first-child {
-  width: 30%; /* Egzersiz ismi sütunu için genişlik */
+  width: 30%; 
 }
 
 .power-table th:second-child {
-  width: 70%; /* Açıklama sütunu için genişlik */
+  width: 70%; 
 }
 
 .power-table th {
@@ -308,16 +308,16 @@ img.box-foto {
 
 .box-content {
   display: flex;
-  padding: 0 20px; /* Yanlarda boşluk bırakalım */
-  align-items: flex-start; /* İçerikleri üstten hizalar */
-  gap: 20px; /* Resim ve yazı arasında boşluk */
+  padding: 0 20px; 
+  align-items: flex-start; 
+  gap: 20px; 
 }
 
 .box-content {
   display: flex;
-  padding: 0 20px; /* Yanlarda boşluk bırakalım */
-  align-items: flex-start; /* İçerikleri üstten hizalar */
-  gap: 20px; /* Resim ve yazı arasında boşluk */
+  padding: 0 20px; 
+  align-items: flex-start; 
+  gap: 20px; 
 }
 
 .box-content p {
@@ -375,9 +375,9 @@ img.run-foto {
 
 .run-content {
   display: flex;
-  padding: 0 20px; /* Yanlarda boşluk bırakalım */
-  align-items: flex-start; /* İçerikleri üstten hizalar */
-  gap: 20px; /* Resim ve yazı arasında boşluk */
+  padding: 0 20px; 
+  align-items: flex-start;
+  gap: 20px; 
 }
 
 .run-content p {
